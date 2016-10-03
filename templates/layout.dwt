@@ -1,0 +1,41 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Adrian's Webpage - Index</title>
+<!-- TemplateEndEditable -->
+<link href="../styles/index_css.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<div class="container">
+	<div class="header">
+		<div id="logo"><a href="../index.html"><img src="../images/logo.jpg" alt="Adrian Logo"/></a></div>
+		<!-- TemplateBeginEditable name="Logo" -->
+		<div id="page_logo"><img src="../images/home.jpg" alt="Home"/></div>
+		<!-- TemplateEndEditable -->
+    </div>
+	<div class="menu">
+	  <div id="about"><a href="../index.html">Index</a></div>
+      <div id="interests"><a href="../interests.html">Interests</a></div>
+      <div id="movie"><a href="../movie.html">Movie</a></div>
+      <div id="flash"><a href="../flash.html">Flash</a></div>
+      <div id="blender"><a href="../blender.html">Blender</a></div> 
+    </div>
+   	  <div id="top_bar"></div> 
+      <div id="top_bar2"></div>
+      <!-- TemplateBeginEditable name="Body" -->
+      <div class="body"></div>
+      <!-- TemplateEndEditable -->
+	  <div id="spacer"></div>      
+      <div class="footer">
+      <div id="bottom_bar1"></div>
+      <div id="feedback"><a href="mailto: lenool@hotmail.com">Give Feedback</a></div>
+      <div id="top"><a href ="#header">Back to the top</a></div>
+      <div id="bottom_bar2"></div>
+      <div id="bottom_bar3"></div>
+    </div>
+</div>
+</body>
+</html>

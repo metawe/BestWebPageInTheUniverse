@@ -1,0 +1,128 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/layout.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Adrian's Webpage - Links</title>
+<script type="text/javascript" src="scripts/highslide.js"></script>
+<link rel="stylesheet" type="text/css" href="styles/highslide.css" />
+<script type="text/javascript">
+	hs.wrapperClassName = 'wide-border';
+</script>
+<!-- InstanceEndEditable -->
+<link href="styles/index_css.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<div class="container">
+	<div class="header">
+		<div id="logo"><a href="index.html"><img src="images/logo.jpg" alt="Adrian Logo"/></a></div>
+		<!-- InstanceBeginEditable name="Logo" -->
+		<div id="page_logo"><img src="images/blender.jpg" alt="Blender"/></div>
+		<!-- InstanceEndEditable -->
+    </div>
+	<div class="menu">
+	  <div id="about"><a href="index.html">Index</a></div>
+      <div id="interests"><a href="interests.html">Interests</a></div>
+      <div id="movie"><a href="movie.html">Movie</a></div>
+      <div id="flash"><a href="flash.html">Flash</a></div>
+      <div id="blender"><a href="blender.html">Blender</a></div> 
+    </div>
+   	  <div id="top_bar"></div> 
+      <div id="top_bar2"></div>
+      <!-- InstanceBeginEditable name="Body" -->
+      <div class="body">
+       <p id="intro">3D modeling of various objects made in Blender would go here... if there was time. So here are some balloons instead.</p>
+       <div id="balloons">
+        <h1> Balloons</h1>
+        <p id="balloons_text">It originally started as following a tutorial, but I continued on from there. Although making a balloon sounds easy, and making a bunch of balloons sounds like a bunch of copy-pasting, it isn't when you don't know anything about the program and then try to add in more things.
+        </p>
+        <div id="balloons_img">
+         <a href="images/balloon6.png" class="highslide" onclick="return hs.expand(this)">
+	<img src="images/balloon6-preview.png" alt="Close-up to Balloon model."
+		title="Balloon model" height="313" width="500" /></a>
+         <div class="highslide-caption">
+	Balloon-close up. Specifically to the knot.
+		 </div>
+	    </div>
+        <p id="balloons_text">
+        Even though the knot shown ends up being about 3 pixels big, it is there to show how detailed the model is, even if it's a balloon. The bottom conic section of the balloon also has a small deviation caused by the string's pulling and position, another thing you wouldn't normal notice although it is there.</p>
+        <div id="balloons_img">
+         <a href="images/balloon2.png" class="highslide" onclick="return hs.expand(this)">
+	<img src="images/balloon2-preview.png" alt="Red balloons and SkyDome."
+		title="Balloon model" height="313" width="500" /></a>
+         <div class="highslide-caption">
+	Multiple balloons textured with a bright red color and a surrounding SkyDome.
+		 </div>
+        </div>
+        <p id="balloons_text">
+        By now, I have duplicated the balloons and manually positioned them. I had looked in the internet to see if there was a way so I could make it sort of automatic by adding physics but to no avail. I ended up just following the tutorial and adding a hook to the string so whenever I moved the balloon, it would automatically extend and move the balloon slightly in the opposite direction as if simulating the pull of the string against the upward direction of helium. Also some red texture.
+        <br />
+        <br />
+        Another thing added, and perhaps most obvious is the SkyDome. This was in the video tutorial and seemed like pretty good idea. It was. There was a weird bug (maybe) where it would move the sky skin from the position seen in the camera to a little to the right once rendered. It's no big deal but I just found it odd.</p>
+        <div id="balloons_img">
+         <a href="images/balloon1.png" class="highslide" onclick="return hs.expand(this)">
+	<img src="images/balloon1-preview.png" alt="First rendering of red balloons."
+		title="Balloon model" height="313" width="500" /></a>
+         <div class="highslide-caption">
+	Rendering of red balloons with lighting and sky background.
+		 </div>
+        </div>
+        <p id="balloons_text">
+        This is how the rendering of the previous image looks. One thing I missed to mention was that I also added a light source. However, it makes the balloons look like it's made from a completely solid plastic material, very unrealistic. </p>
+        <div id="balloons_img">
+         <a href="images/balloon4.png" class="highslide" onclick="return hs.expand(this)">
+	<img src="images/balloon4-preview.png" alt="Repositioned color balloons. More light sources added."
+		title="Balloon model" height="313" width="500" /></a>
+         <div class="highslide-caption">
+	Comparitive view of the previous SkyDome/balloons image. It now has more colors, repositioned balloons and more light sources.
+		 </div>
+        </div>
+        <p id="balloons_text">
+        It does not look that different from the previous two images, other than more colors added to the balloons. However, I have also added transparency and refraction to simulate how a helium balloon would react with light and more sources of light. The following picture will explain it better.</p>
+        <div id="balloons_img1">
+         <a href="images/balloon3.png" class="highslide" onclick="return hs.expand(this)">
+	<img src="images/balloon3.png" alt="Rendering of updated colored balloons."
+		title="Balloon model" height="223" width="553" /></a>
+         <div class="highslide-caption">
+	Rendering of updated colored balloons. Still a bit dark though.
+		 </div>
+        </div>
+        <p id="balloons_text">
+        Very different from before, I know. This is sort of how it will end up looking except it is still dark even though two light sources (hemisphere light from the back which gives them a glowing outline and world light which lights up everything) it is still dark. A few more ffects will be added too. 
+        <br />
+        One problem I had in this step was the lower balloons. As you can see, the bottom red balloon seems more transparent and with less color than the rest. I have no idea what caused this but I did "solve" it; by simply adding more balloons in the back.</p>
+        <div id="balloons_img">
+         <a href="images/balloon5.png" class="highslide" onclick="return hs.expand(this)">
+	<img src="images/balloon5-preview.png" alt="Node view including background rendered image."
+		title="Balloon model" height="313" width="500" /></a>
+         <div class="highslide-caption">
+	Node view used for post-processing effects and rendered image in the background.
+		 </div>
+        </div>
+        <p id="balloons_text">
+        This is the node view. The background used is the rendered image plus the post-processing which is what I was currently working on. It is basically done, just had to add a few more effects and give the textures a mirroring effect, as if they're new balloons. All those nodes (little windows) are really confusing when you connect so many of them together, it felt kind of like playing a puzzle though.</p>
+        <div id="balloons_img">
+         <a href="images/balloons2.png" class="highslide" onclick="return hs.expand(this)">
+	<img src="images/balloons2-preview.png" alt="Node view including background rendered image."
+		title="Balloon model" height="281" width="500" /></a>
+         <div class="highslide-caption">
+	Final rendering. With added background blur, mirror effect, darker corners and other stuff.
+		 </div>
+        </div>
+        <p id="balloons_text">
+        Finally the final rendering! I'm pretty happy with what I did, taking in account it's my first time using Blender or any other 3D modeling program. One problem I had at the very end though was hiding the sun. In the original position I had chosen, the dimensions of the image had hidden it. But when I expanded the resolution/dimensions it showed up which would seem weird considering that the light source seems to be in front and around the balloons (as it actually is)... so I just rotated the SkyDome around and voilà!</p>
+       </div>
+      </div>
+      <!-- InstanceEndEditable -->
+	  <div id="spacer"></div>      
+      <div class="footer">
+      <div id="bottom_bar1"></div>
+      <div id="feedback"><a href="mailto: lenool@hotmail.com">Give Feedback</a></div>
+      <div id="top"><a href ="#header">Back to the top</a></div>
+      <div id="bottom_bar2"></div>
+      <div id="bottom_bar3"></div>
+    </div>
+</div>
+</body>
+<!-- InstanceEnd --></html>
